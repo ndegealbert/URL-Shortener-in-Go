@@ -64,3 +64,27 @@ A simple and efficient URL shortener service built using Go. This service allows
 
 ### Project Structure
 
+
+
+### How It Works
+
+1. **Shortening a URL**: 
+    - The user sends a `POST` request to the `/shorten` endpoint with the original URL.
+    - The service generates a unique shortcode using base62 encoding and stores it in the database.
+
+2. **Redirecting**:
+    - The user accesses the short URL.
+    - The service looks up the original URL from the database using the shortcode and redirects the user.
+
+### Contributing
+
+Contributions are welcome! Feel free to open an issue or submit a pull request for improvements or features.
+
+### License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+### Contact
+
+- **Author**: Albert Ndege
+- **GitHub**: [https://github.com/ndegealbert])
