@@ -8,7 +8,7 @@ A simple and efficient URL shortener service built using Go. This service allows
 ## Features
 
 - Generate short URLs for long links.
-- Redirect to the original URL using the short code.
+- Redirect to the original URL using the shortcode.
 - Lightweight and easy to deploy.
 - Built with `net/http` and `gorilla/mux` for request handling.
 - SQLite database for storage.
