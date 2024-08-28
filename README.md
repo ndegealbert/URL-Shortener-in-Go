@@ -64,6 +64,32 @@ A simple and efficient URL shortener service built using Go. This service allows
 
 ### Project Structure
 
+url-shortener-go/
+├── cmd/
+│   └── server/
+│       └── main.go            # Entry point for the application
+├── pkg/
+│   ├── api/
+│   │   ├── handler.go         # HTTP handler functions
+│   │   └── routes.go          # API route definitions
+│   ├── storage/
+│   │   ├── storage.go         # Interface for database operations
+│   │   └── sqlite/
+│   │       └── sqlite.go      # SQLite-specific implementation
+│   ├── shortener/
+│   │   └── shortener.go       # Logic for generating and managing short URLs
+├── internal/
+│   └── config/
+│       └── config.go          # Application configuration management
+├── db/
+│   └── migrations/
+│       └── 001_init.sql       # SQL file for database schema
+├── go.mod                      # Go module file
+├── go.sum                      # Go dependency file
+├── README.md                   # Project documentation
+└── urlshortener.db             # SQLite database file (created automatically)
+
+
 
 
 ### How It Works
