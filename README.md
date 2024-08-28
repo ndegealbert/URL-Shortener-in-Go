@@ -3,7 +3,7 @@
 ![Go](https://img.shields.io/badge/Go-1.19-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
-A simple and efficient URL shortener service built using Go. This service allows users to shorten long URLs and redirect using the generated short codes.
+A simple and efficient URL shortener service built using Go. This service allows users to shorten long URLs and redirect using the generated shortcodes.
 
 ## Features
 
@@ -62,8 +62,9 @@ A simple and efficient URL shortener service built using Go. This service allows
     - **Description**: Redirects to the original URL.
     - **Example**: Access `http://localhost:8080/abc123` and it will redirect to `https://www.example.com`.
 
-### Project Structure
+## Project Structure
 
+```bash
 url-shortener-go/
 ├── cmd/
 │   └── server/
@@ -88,9 +89,7 @@ url-shortener-go/
 ├── go.sum                      # Go dependency file
 ├── README.md                   # Project documentation
 └── urlshortener.db             # SQLite database file (created automatically)
-
-
-
+```
 
 ### How It Works
 
