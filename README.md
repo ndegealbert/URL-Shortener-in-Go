@@ -24,7 +24,7 @@ A simple and efficient URL shortener service built using Go. This service allows
 
 1. **Clone the repository**
     ```bash
-    git clone https://github.com/yourusername/url-shortener-go.git
+    git clone https://github.com/ndegealbert/URL-Shortener-in-Go.git
     cd url-shortener-go
     ```
 
